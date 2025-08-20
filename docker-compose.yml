@@ -7,4 +7,4 @@ services:
       PORT: 1200
   testapp:
     image: crccheck/hello-world
-    ports: ["80:8090"]
+    ports: ["81:8090"]
