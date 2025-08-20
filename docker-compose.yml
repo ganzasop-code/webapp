@@ -1,11 +1,10 @@
 version: "3.9"
 services:
   webapp:
-    image:
-ganza/webapp:v7
-  ports: ["80:8090"]
-  environment:
-    PORT: 80
-    
-  
-  
+    image: ganzasop/webapp-release:v2
+    ports: ["80:8090"]
+    environment:
+      PORT: 1200
+  testapp:
+    image: crccheck/hello-world
+    ports: ["80:8090"]
