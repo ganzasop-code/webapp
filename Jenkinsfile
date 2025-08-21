@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE = "ganzasop/webapp-jenkins:v1"
+    IMAGE = "ganzasop/webapp-jenkins:v2"
   }
 
   stages {
